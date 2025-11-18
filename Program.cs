@@ -16,6 +16,7 @@ internal class Program
             board[inputPlace2 / 3, inputPlace2 % 3] = 1; // Player X
         }
         PrintBoard(board);
+        PrintBoard(board);
     }
 
     private static void PrintBoard(int[,] board)
