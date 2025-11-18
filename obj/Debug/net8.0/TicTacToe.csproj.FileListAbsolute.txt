@@ -26,3 +26,4 @@ F:\PRACA\PRACA - NAU\2025-26\CSharpTest\KolkoKrzyzyk\obj\Debug\net8.0\refint\Tic
 F:\PRACA\PRACA - NAU\2025-26\CSharpTest\KolkoKrzyzyk\obj\Debug\net8.0\TicTacToe.pdb
 F:\PRACA\PRACA - NAU\2025-26\CSharpTest\KolkoKrzyzyk\obj\Debug\net8.0\TicTacToe.genruntimeconfig.cache
 F:\PRACA\PRACA - NAU\2025-26\CSharpTest\KolkoKrzyzyk\obj\Debug\net8.0\ref\TicTacToe.dll
+F:\PRACA\PRACA - NAU\2025-26\CSharpTest\KolkoKrzyzyk\obj\Debug\net8.0\TicTacToe.sourcelink.json
