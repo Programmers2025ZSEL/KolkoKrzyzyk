@@ -5,6 +5,12 @@ internal class Program
     {
         int[,] board = new int[3, 3];
         PrintBoard(board);
+        if (int.TryParse(Console.ReadLine(), out int inputPlace))
+        {
+            board[inputPlace / 3, inputPlace % 3] = 1; // Player X
+        }
+        Console.Clear();
+        PrintBoard(board);
     }
 
     private static void PrintBoard(int[,] board)
@@ -31,5 +37,7 @@ internal class Program
             if(i != 2)
                 Console.WriteLine("\n- - -");
         }
+
+        Console.WriteLine("Wybierz miejsce od 0 do 8");
     }
 }
