@@ -11,6 +11,11 @@ internal class Program
         }
         Console.Clear();
         PrintBoard(board);
+        if (int.TryParse(Console.ReadLine(), out int inputPlace2))
+        {
+            board[inputPlace2 / 3, inputPlace2 % 3] = 1; // Player X
+        }
+        PrintBoard(board);
     }
 
     private static void PrintBoard(int[,] board)
